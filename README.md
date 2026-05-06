@@ -1,5 +1,8 @@
 ## NiConnect - Mini CRM Application
 
+<img width="1920" height="1080" alt="screenshot_niconnect" src="https://github.com/user-attachments/assets/f16563be-33b8-4189-a31b-fa247463f102" />
+
+
 Between my actual studies I've made a small side-project, a lightweight CRM system with user authentication and role management.
 
 It built with PHP on Laravel, and it includes the basics for managing clients, projects, and tasks. The database tables (users, clients, projects & tasks) are connected through pivot tables, and both projects and tasks are organized by deadlines with status tracking. When you have logged in, you land on a dashboard where you can see urgent projects and summaries and stats.
