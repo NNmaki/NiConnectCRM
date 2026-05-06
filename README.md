@@ -3,6 +3,7 @@
 <img width="1920" height="1080" alt="screenshot_niconnect" src="https://github.com/user-attachments/assets/f16563be-33b8-4189-a31b-fa247463f102" />
 
 
+
 Between my actual studies I've made a small side-project, a lightweight CRM system with user authentication and role management.
 
 It built with PHP on Laravel, and it includes the basics for managing clients, projects, and tasks. The database tables (users, clients, projects & tasks) are connected through pivot tables, and both projects and tasks are organized by deadlines with status tracking. When you have logged in, you land on a dashboard where you can see urgent projects and summaries and stats.
@@ -12,6 +13,8 @@ Laravel is a relatively heavy tool and a bit overkill for building this type of 
 I used Laravel Breeze starter kit and added Spatie Laravel Permission -package to handle roles and permissions more easily(?).
 
 Overall, this was a fun project that let me dive deeper into backend development and relational databases. I have noticed that Laravel can feel a bit heavy for smaller apps, so next I’m planning to do something similar with Python & Django/Flask.
+
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
