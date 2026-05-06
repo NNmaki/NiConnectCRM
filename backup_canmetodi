@@ -1,0 +1,10 @@
+                  @can(\App\Enums\PermissionEnum::DELETE_PROJECTS->value)
+                                    <form action="{{ route('projects.destroy', $project) }}"
+                                          method="POST"
+                                          onsubmit="return confirm('Are you sure?');"
+                                          class="inline-block">
+                                        @method('DELETE')
+                                        @csrf
+                                        <button type="submit" class="text-red-500 underline">Delete</button>
+                                    </form>
+                                    @endcan
